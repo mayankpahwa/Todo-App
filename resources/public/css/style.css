@@ -1,0 +1,149 @@
+/* some style */
+
+body{
+    font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+	color: black;
+}
+
+.nav-wrapper{
+    background-color: #546e7a;
+}
+
+.nav-wrapper a{
+    margin-left: 10px;
+}
+
+.input-field{
+    margin:0 auto;
+    margin-top: 30px; 
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+
+#task_name{
+    font-size: 15px;
+    width: 50%;
+}
+
+#date{
+    font-size: 15px;
+    width: 20%;
+}
+
+#task_name::placeholder{
+    color: grey;
+}
+
+#date::placeholder{
+    color: grey;
+}
+
+#create-task-button{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #26a69a;
+    margin: auto;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#create-task-input{
+    width: 70%;
+	border: 2px solid #ccf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    padding: 9px 8px;
+    margin: 10px 2px;
+    font-size: 26px;
+}
+
+
+#all-tasks{
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+.individual-task{
+    width: 90%;
+    margin:0 auto;
+    padding: 8px 8px;
+}
+
+.individual-task-details{
+    padding: 5px 1px 0px 1px;
+    border-bottom: 1px solid #ccf;
+    width: 85%;
+}
+
+/*
+.individual-task:hover{
+    cursor: pointer;
+    border-bottom: 2px solid green;
+}*/
+
+span#due-date{
+    color: black;
+    float: right;
+    font-size: 15px;  
+    padding: 8px 8px;  
+}
+
+.material-icons{
+    color: black;
+    opacity: 0.1;
+}
+
+.material-icons:hover{
+    opacity: 1;
+    color: #c91d12;
+    cursor: pointer;
+}
+
+#form {
+max-width:600px;
+min-width:250px;
+padding:10px 100px;
+border:2px solid gray;
+/*border-radius:10px;*/
+}
+
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:20px;
+font-size:16px;
+}
+
+textarea {
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:20px;
+font-size:16px;
+margin-bottom:30px
+}
+
+#error-404{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#login-form-button{
+    left: 35%;
+}
+
+#signup-form-button{
+    left: 35%;
+}
